@@ -13,15 +13,14 @@ public class MahasiwaMain19 {
         mhs1.updateIpk(3.60);
         mhs1.tampilkanInformasi();
 
-        Mahasiswa19 mhs2 = new Mahasiswa19(
-                "Annisa Nabila",
-                "2141720160",
-                3.25,
-                "TI 2L"
-        );
+        Mahasiswa19 mhs2 = new Mahasiswa19("Annisa Nabila","2141720160",3.25,"TI 2L");
+       
+        Mahasiswa19 mhs3 = new Mahasiswa19("Rada Devita Sari","254107060149",4.00,"SIB 1E");
+
 
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+        mhs3.tampilkanInformasi();
     }
 }
 
